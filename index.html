@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSV CRUD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Create, Read, Update & Delete CSV Contents</h1>
+    <label for="upload_csv">Load Data</label>
+    <input type="file" id="upload_csv" accept=".csv">
+
+    <button id="add_button">Add Record</button>
+
+    <div id="view_container">
+        <button id="view_button">View/Hide Columns</button>
+        <div id="view_dropdown"></div>
+    </div>
+
+    <button id="export_button">Export (.csv)</button>
+
+    <table id="data_table"></table>
+
+    <div id="record_modal" class="hidden">
+        <div id="record_panel">
+            <h2 id="record_modal_title">Enter Row Data</h2>
+            <form id="record_form">
+                <div id="fields_container"></div>
+                <div id="buttons_container">
+                    <button id="save_button" type="submit">Save</button>
+                    <button id="reset_button" type="reset">Clear</button>
+                    <button id="cancel_button" type="button">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
