@@ -2,6 +2,10 @@
 
 This project is a web-based application designed to manage CSV (Comma-Separated Values) data. It is table-agnostic, meaning it can adapt to any CSV structure by dynamically generating the table based on the file contents.
 
+## Academic Context
+
+This project was developed as part of the course **Application Development & Big Data** in the **Master's in Applied Informatics** program at the University of Macedonia.
+
 ## Features
 
 - **Load CSV**: Upload any valid CSV file to view its contents in a table format.
