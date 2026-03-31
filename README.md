@@ -4,7 +4,7 @@ This project is a web-based application designed to manage CSV (Comma-Separated 
 
 ## Academic Context
 
-This project was developed as part of the course **Application Development & Big Data** in the **Master's in Applied Informatics** program at the University of Macedonia.
+This project was developed as part of the course **Application Development & Big Data** in the **Master's in Software Development & Cloud** program at the University of Macedonia.
 
 ## Features
 
